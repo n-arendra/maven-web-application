@@ -21,10 +21,10 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://18.218.80.100:9000/</sonar.host.url>
-		<!--<sonar.login>admin</sonar.login>
-		<sonar.password>naren</sonar.password> -->
-		<sonar.login>squ_5cb5f26eee54c6186e87eb26d2d8aea1f3ebace8</sonar.login>
+		<sonar.host.url>http://34.204.174.107:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>naren</sonar.password> 
+		<!--<sonar.login>squ_5cb5f26eee54c6186e87eb26d2d8aea1f3ebace8</sonar.login>-->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Releases Nexus Repository</name>
-	      <url>http://3.142.93.26:8081/repository/webapp-release/</url>
+	      <url>http://3.235.194.23:8081/repository/walmart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Snapshot Nexus Repository </name>
-	      <url>http://3.142.93.26:8081/repository/webapp-snapshot/</url>
+	      <url>http://3.235.194.23:8081/repository/walmart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
