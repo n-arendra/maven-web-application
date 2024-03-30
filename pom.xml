@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>development-branch-maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>	
+	<version>1.0.0</version>	
 	<name>development-branch-maven-web-application</name>
 
 	<description>Maven Web Project for Java Project</description>
@@ -93,21 +93,21 @@
 		
 	</dependencies>
 	
-	 <!--<distributionManagement>
+	 <distributionManagement>
 	
 	    <repository>
 	      <id>nexus</id>
 	      <name>Releases Nexus Repository</name>
-	      <url>http://3.235.194.23:8081/repository/walmart-release/</url>
+	      <url>http://63.33.66.136:8081/repository/demo-maven-project/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Snapshot Nexus Repository </name>
-	      <url>http://3.235.194.23:8081/repository/walmart-snapshot/</url>
+	      <url>http://63.33.66.136:8081/repository/demo-maven-snapshot/</url>
 	    </snapshotRepository>
 	    
-	</distributionManagement> -->
+	</distributionManagement> 
 	
 	<build>
 		<finalName>maven-web-application</finalName>
